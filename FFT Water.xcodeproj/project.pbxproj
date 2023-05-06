@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE95DAC32A0708BB00D8610D /* FFT_WaterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAC22A0708BB00D8610D /* FFT_WaterApp.swift */; };
+		DE95DAC52A0708BB00D8610D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAC42A0708BB00D8610D /* ContentView.swift */; };
+		DE95DAC72A0708BC00D8610D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE95DAC62A0708BC00D8610D /* Assets.xcassets */; };
+		DE95DACB2A0708BC00D8610D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE95DACA2A0708BC00D8610D /* Preview Assets.xcassets */; };
+		DE95DAD52A0708BC00D8610D /* FFT_WaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAD42A0708BC00D8610D /* FFT_WaterTests.swift */; };
+		DE95DADF2A0708BC00D8610D /* FFT_WaterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DADE2A0708BC00D8610D /* FFT_WaterUITests.swift */; };
+		DE95DAE12A0708BC00D8610D /* FFT_WaterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAE02A0708BC00D8610D /* FFT_WaterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE95DAD12A0708BC00D8610D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE95DAB72A0708BB00D8610D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE95DABE2A0708BB00D8610D;
+			remoteInfo = "FFT Water";
+		};
+		DE95DADB2A0708BC00D8610D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE95DAB72A0708BB00D8610D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE95DABE2A0708BB00D8610D;
+			remoteInfo = "FFT Water";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE95DABF2A0708BB00D8610D /* FFT Water.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FFT Water.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE95DAC22A0708BB00D8610D /* FFT_WaterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFT_WaterApp.swift; sourceTree = "<group>"; };
+		DE95DAC42A0708BB00D8610D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE95DAC62A0708BC00D8610D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE95DAC82A0708BC00D8610D /* FFT_Water.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FFT_Water.entitlements; sourceTree = "<group>"; };
+		DE95DACA2A0708BC00D8610D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE95DAD02A0708BC00D8610D /* FFT WaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FFT WaterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE95DAD42A0708BC00D8610D /* FFT_WaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFT_WaterTests.swift; sourceTree = "<group>"; };
+		DE95DADA2A0708BC00D8610D /* FFT WaterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FFT WaterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE95DADE2A0708BC00D8610D /* FFT_WaterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFT_WaterUITests.swift; sourceTree = "<group>"; };
+		DE95DAE02A0708BC00D8610D /* FFT_WaterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFT_WaterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE95DABC2A0708BB00D8610D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE95DACD2A0708BC00D8610D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE95DAD72A0708BC00D8610D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE95DAB62A0708BB00D8610D = {
+			isa = PBXGroup;
+			children = (
+				DE95DAC12A0708BB00D8610D /* FFT Water */,
+				DE95DAD32A0708BC00D8610D /* FFT WaterTests */,
+				DE95DADD2A0708BC00D8610D /* FFT WaterUITests */,
+				DE95DAC02A0708BB00D8610D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE95DAC02A0708BB00D8610D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE95DABF2A0708BB00D8610D /* FFT Water.app */,
+				DE95DAD02A0708BC00D8610D /* FFT WaterTests.xctest */,
+				DE95DADA2A0708BC00D8610D /* FFT WaterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE95DAC12A0708BB00D8610D /* FFT Water */ = {
+			isa = PBXGroup;
+			children = (
+				DE95DAC22A0708BB00D8610D /* FFT_WaterApp.swift */,
+				DE95DAC42A0708BB00D8610D /* ContentView.swift */,
+				DE95DAC62A0708BC00D8610D /* Assets.xcassets */,
+				DE95DAC82A0708BC00D8610D /* FFT_Water.entitlements */,
+				DE95DAC92A0708BC00D8610D /* Preview Content */,
+			);
+			path = "FFT Water";
+			sourceTree = "<group>";
+		};
+		DE95DAC92A0708BC00D8610D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE95DACA2A0708BC00D8610D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE95DAD32A0708BC00D8610D /* FFT WaterTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE95DAD42A0708BC00D8610D /* FFT_WaterTests.swift */,
+			);
+			path = "FFT WaterTests";
+			sourceTree = "<group>";
+		};
+		DE95DADD2A0708BC00D8610D /* FFT WaterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE95DADE2A0708BC00D8610D /* FFT_WaterUITests.swift */,
+				DE95DAE02A0708BC00D8610D /* FFT_WaterUITestsLaunchTests.swift */,
+			);
+			path = "FFT WaterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE95DABE2A0708BB00D8610D /* FFT Water */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE95DAE42A0708BC00D8610D /* Build configuration list for PBXNativeTarget "FFT Water" */;
+			buildPhases = (
+				DE95DABB2A0708BB00D8610D /* Sources */,
+				DE95DABC2A0708BB00D8610D /* Frameworks */,
+				DE95DABD2A0708BB00D8610D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FFT Water";
+			productName = "FFT Water";
+			productReference = DE95DABF2A0708BB00D8610D /* FFT Water.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE95DACF2A0708BC00D8610D /* FFT WaterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE95DAE72A0708BC00D8610D /* Build configuration list for PBXNativeTarget "FFT WaterTests" */;
+			buildPhases = (
+				DE95DACC2A0708BC00D8610D /* Sources */,
+				DE95DACD2A0708BC00D8610D /* Frameworks */,
+				DE95DACE2A0708BC00D8610D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE95DAD22A0708BC00D8610D /* PBXTargetDependency */,
+			);
+			name = "FFT WaterTests";
+			productName = "FFT WaterTests";
+			productReference = DE95DAD02A0708BC00D8610D /* FFT WaterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE95DAD92A0708BC00D8610D /* FFT WaterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE95DAEA2A0708BC00D8610D /* Build configuration list for PBXNativeTarget "FFT WaterUITests" */;
+			buildPhases = (
+				DE95DAD62A0708BC00D8610D /* Sources */,
+				DE95DAD72A0708BC00D8610D /* Frameworks */,
+				DE95DAD82A0708BC00D8610D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE95DADC2A0708BC00D8610D /* PBXTargetDependency */,
+			);
+			name = "FFT WaterUITests";
+			productName = "FFT WaterUITests";
+			productReference = DE95DADA2A0708BC00D8610D /* FFT WaterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE95DAB72A0708BB00D8610D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DE95DABE2A0708BB00D8610D = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					DE95DACF2A0708BC00D8610D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = DE95DABE2A0708BB00D8610D;
+					};
+					DE95DAD92A0708BC00D8610D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = DE95DABE2A0708BB00D8610D;
+					};
+				};
+			};
+			buildConfigurationList = DE95DABA2A0708BB00D8610D /* Build configuration list for PBXProject "FFT Water" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE95DAB62A0708BB00D8610D;
+			productRefGroup = DE95DAC02A0708BB00D8610D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE95DABE2A0708BB00D8610D /* FFT Water */,
+				DE95DACF2A0708BC00D8610D /* FFT WaterTests */,
+				DE95DAD92A0708BC00D8610D /* FFT WaterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE95DABD2A0708BB00D8610D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE95DACB2A0708BC00D8610D /* Preview Assets.xcassets in Resources */,
+				DE95DAC72A0708BC00D8610D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE95DACE2A0708BC00D8610D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE95DAD82A0708BC00D8610D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE95DABB2A0708BB00D8610D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE95DAC52A0708BB00D8610D /* ContentView.swift in Sources */,
+				DE95DAC32A0708BB00D8610D /* FFT_WaterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE95DACC2A0708BC00D8610D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE95DAD52A0708BC00D8610D /* FFT_WaterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE95DAD62A0708BC00D8610D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE95DADF2A0708BC00D8610D /* FFT_WaterUITests.swift in Sources */,
+				DE95DAE12A0708BC00D8610D /* FFT_WaterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE95DAD22A0708BC00D8610D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE95DABE2A0708BB00D8610D /* FFT Water */;
+			targetProxy = DE95DAD12A0708BC00D8610D /* PBXContainerItemProxy */;
+		};
+		DE95DADC2A0708BC00D8610D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE95DABE2A0708BB00D8610D /* FFT Water */;
+			targetProxy = DE95DADB2A0708BC00D8610D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DE95DAE22A0708BC00D8610D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE95DAE32A0708BC00D8610D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DE95DAE52A0708BC00D8610D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "FFT Water/FFT_Water.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FFT Water/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Blindsite.fft-water.FFT-Water";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE95DAE62A0708BC00D8610D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "FFT Water/FFT_Water.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FFT Water/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Blindsite.fft-water.FFT-Water";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE95DAE82A0708BC00D8610D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Blindsite.fft-water.FFT-WaterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFT Water.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FFT Water";
+			};
+			name = Debug;
+		};
+		DE95DAE92A0708BC00D8610D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Blindsite.fft-water.FFT-WaterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFT Water.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FFT Water";
+			};
+			name = Release;
+		};
+		DE95DAEB2A0708BC00D8610D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Blindsite.fft-water.FFT-WaterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FFT Water";
+			};
+			name = Debug;
+		};
+		DE95DAEC2A0708BC00D8610D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Blindsite.fft-water.FFT-WaterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FFT Water";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE95DABA2A0708BB00D8610D /* Build configuration list for PBXProject "FFT Water" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE95DAE22A0708BC00D8610D /* Debug */,
+				DE95DAE32A0708BC00D8610D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE95DAE42A0708BC00D8610D /* Build configuration list for PBXNativeTarget "FFT Water" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE95DAE52A0708BC00D8610D /* Debug */,
+				DE95DAE62A0708BC00D8610D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE95DAE72A0708BC00D8610D /* Build configuration list for PBXNativeTarget "FFT WaterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE95DAE82A0708BC00D8610D /* Debug */,
+				DE95DAE92A0708BC00D8610D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE95DAEA2A0708BC00D8610D /* Build configuration list for PBXNativeTarget "FFT WaterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE95DAEB2A0708BC00D8610D /* Debug */,
+				DE95DAEC2A0708BC00D8610D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE95DAB72A0708BB00D8610D /* Project object */;
+}
